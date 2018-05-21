@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  root to: 'map#index'
+  resources :locations
+  root 'map#index'
 end

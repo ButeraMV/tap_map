@@ -13,3 +13,73 @@
  *= require_tree .
  *= require_self
  */
+
+ html {
+   margin: 0;
+   padding: 0;
+   text-align: center;
+ }
+
+ body {
+   background-image: url("mobile-background.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-position: center center;
+   margin: 0;
+   padding: 0;
+   list-style-type: none;
+ }
+
+.logo {
+  display: block;
+  margin: 2em auto 0 auto;
+}
+
+ .map-container {
+   margin: 0 auto;
+   width: 800px;
+ }
+
+ .wrapper {
+  background-color: black;
+  color: white;
+  padding: 2em;
+  width: 850px;
+  border: 2px solid gold;
+  margin: 50px auto;
+}
+
+.map-container > * {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+}
+
+h3 > a {
+  text-decoration: none;
+  color: white;
+}
+
+h3 > a:visited {
+  color: white;
+}
+
+h3 > a:hover {
+  color: gold;
+}
+
+li {
+  padding: 10px;
+}
+
+li a {
+  color: gold;
+  font-size: 16px;
+}
